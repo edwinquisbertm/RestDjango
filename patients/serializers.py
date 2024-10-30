@@ -1,7 +1,17 @@
 from rest_framework import serializers
-from .models import Partient
+from .models import Patient, Insurance, MedicalRecord
 
-class PartientSerializer(serializers.ModelSerializer):
+class PatientSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Partient
+        model = Patient
+        fields = '__all__'
+        
+class InsuranceSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Insurance
+        fields = '__all__'
+        
+class MedicalRecordSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = MedicalRecord
         fields = '__all__'

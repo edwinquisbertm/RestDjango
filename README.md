@@ -26,4 +26,3 @@ Documentación: Genera documentación interactiva con herramientas como Swagger 
 Pruebas: Escribe pruebas automatizadas usando APITestCase para asegurar el correcto funcionamiento de la API.
 Versionado: Considera implementar un esquema de versionado para manejar cambios futuros.
 Manejo de Errores: Utiliza las excepciones de DRF para ofrecer respuestas coherentes en caso de errores.
-
